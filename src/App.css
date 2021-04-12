@@ -1,0 +1,101 @@
+.main-container {
+  margin:auto;
+  width: 1024px;
+}
+/* Default */
+h4 {
+  margin: 0px 0px 10px 0px;
+}
+
+/* Card CSS */
+.card {
+  border: #dcd8d8 solid 1px;
+  box-shadow: #dad7d7 1px 2px 2px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  padding: 5px;
+}
+.card-main {
+  display: flex;
+}
+.card-title {
+  border-bottom: #ccc solid 1px;
+  padding-bottom: 5px;
+}
+.img-container {
+  background-color:burlywood ;
+  width: 200px;
+  height: 150px;
+}
+.text-container {
+  padding-left: 5px;
+  width: 100%;
+}
+.inline-col {
+  display: flex;
+}
+.col {
+  margin: 5px 20px 5px 0px;
+  font-size:0.875em ;
+}
+.data-label {
+  font-weight: bold;
+  font-size:0.875em ;
+}
+/* Pagination CSS */
+ul.pagination {
+  margin: auto;
+  width:300px;
+}
+
+ul.pagination li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+ul.pagination li a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul.pagination li a:active, ul.pagination li a:focus {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Media Query Responsivness */
+@media only screen and (max-width: 568px) {
+  .main-container {
+    margin: 5px;
+    width:calc(100% - 10px);
+  }
+  .card-main {
+    display: block;
+  }
+  .inline-col {
+    display: block;
+  }
+  .img-container {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .main-container {}
+}
+
+@media only screen and (min-width: 768px) {
+  .main-container {}
+} 
+
+@media only screen and (min-width: 992px) {
+  .main-container {}
+} 
+
+@media only screen and (min-width: 1200px) {
+  .main-container {}
+}
